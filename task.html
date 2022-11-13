@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="task.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>Best <span class="purple">ToDo</span> App</h2>
+      <nav>
+        <a href="#"><img src="/img/facebook-logo.png" alt="facebook-logo" /></a>
+        <a href="#"><img src="/img/Twitter-logo.png" alt="" /></a>
+        <a href="#"><img src="/img/linkedin-logo.png" alt="" /></a>
+      </nav>
+    </header>
+    <main class="flex-container">
+      <section class="container">
+        <div><h2>Edit Task</h2></div>
+        <div class="content">
+          <label for="Id">Task ID</label>
+          <input type="id" name="Id" id="Id" placeholder="123456789" readonly />
+        </div>
+        <div class="content">
+          <label for="text">Name</label>
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Take out trashes"
+          />
+        </div>
+        <div class="content">
+          <label for="">Completed</label>
+          <input type="checkbox" />
+        </div>
+        <div class="content"><button id="Edit-button">Edit</button></div>
+        <div class="content"><p>There Was An Error</p></div>
+      </section>
+    </main>
+    <div class="content">
+      <button class="back-to-task">
+        <a href="/index.html">Back To Tasks</a>
+      </button>
+    </div>
+  </body>
+</html>

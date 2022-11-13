@@ -1,0 +1,133 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #f8fafc;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
+}
+
+nav {
+  padding-right: 50px;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.purple {
+  color: #6063f6;
+}
+
+a img {
+  width: 15px;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
+  border-radius: 5px;
+  margin-top: 80px;
+  flex-grow: 2;
+}
+
+#input {
+  display: flex;
+  padding-left: 40px;
+  width: 93%;
+  flex-grow: 2;
+  align-self: center;
+  border-radius: 50px;
+}
+
+#paragraph {
+  padding-left: 20px;
+  display: flex;
+  align-self: flex-start;
+}
+
+button {
+  background-color: #6063f6;
+  border: none;
+  color: white;
+  width: 20%;
+  padding: 5px 20px;
+  border-radius: 0px 3px 3px 0px;
+}
+
+input {
+  background-color: #f8fafc;
+  border: 1px solid rgb(233, 232, 232);
+  width: 69%;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.flex-container-1 p {
+  text-align: left;
+  padding-left: 30px;
+  font-size: small;
+  color: #79282c;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  padding: 1px 70px;
+  box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
+  border-radius: 5px;
+  margin-top: 70px;
+  flex-grow: 2;
+  font-size: x-large;
+}
+
+.text-decoration {
+  text-decoration: line-through;
+}
+
+.fa-circle-check {
+  font-size: 20px;
+  color: green;
+}
+
+.fa-trash {
+  font-size: 15px;
+  color: #79282c;
+}
+
+.fa-pen-to-square {
+  color: green;
+  font-size: 15px;
+  padding: 10px;
+}
